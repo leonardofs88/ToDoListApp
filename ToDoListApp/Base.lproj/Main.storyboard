@@ -19,10 +19,14 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-SA-FBA">
                                 <rect key="frame" x="32" y="69" width="256" height="32"/>
                                 <segments>
+                                    <segment title="All"/>
                                     <segment title="High"/>
                                     <segment title="Medium"/>
                                     <segment title="Low"/>
                                 </segments>
+                                <connections>
+                                    <action selector="valueChangedWithSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Y4D-qw-zFh"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RYK-Ou-2oJ">
                                 <rect key="frame" x="0.0" y="133" width="320" height="435"/>

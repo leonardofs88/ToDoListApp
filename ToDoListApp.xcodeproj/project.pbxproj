@@ -60,8 +60,14 @@
 				98A31BE8313B21B92BB3626A /* Pods-ToDoListApp.debug.xcconfig */,
 				CACF66BDBFECC926EA67B810 /* Pods-ToDoListApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		980946972938ED0A00E72665 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		9886C0342933AD8E003FB622 = {
@@ -85,6 +91,7 @@
 		9886C03F2933AD8E003FB622 /* ToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				980946972938ED0A00E72665 /* Utils */,
 				9886C0592938D15C003FB622 /* Models */,
 				9886C0542933ADB7003FB622 /* ViewControllers */,
 				9886C0402933AD8E003FB622 /* AppDelegate.swift */,
